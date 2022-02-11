@@ -1,0 +1,26 @@
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 15px;
+}
+tr:nth-child(even) {
+    background-color: whitesmoke;
+}
+tr:hover {
+    background-color: palegreen;
+}
+th {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+input {
+    width: 15em;  height: 2em;
+}
+
+input[type="submit"] {
+    height: 5em;
+}
